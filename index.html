@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Games</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800|Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+<body>
+    <header>
+        <div class="container top-header">
+        <nav class="top-menu">
+            <div class="top-block-popular"><a href="#">Популярное</a></div>
+            <div class="top-block"><a href="#">Бесплатное</a></div>
+            <div class="top-block"><a href="#">Онлайн игры</a></div>
+            <div class="top-block"><a href="#">По жанрам</a></div>
+            <div class="top-block"><a href="#">Скидки</a></div>
+            <div class="top-block-enter"><a href="#">Вход</a></div>
+            <div class="top-block-russian"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <rect width="20" height="20" fill="url(#pattern0)"/>
+                <defs>
+                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0" transform="scale(0.00666667)"/>
+                    </pattern>
+                    <image id="image0" width="150" height="150" xlink:href="data:image/png;base64,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"/>
+                </defs>
+            </svg>
+                <svg width="17" height="11" viewBox="0 0 17 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.5 11L16.7272 0.5H0.272758L8.5 11Z" fill="#636262"/>
+                </svg>
+
+            </div>
+
+        </nav>
+        </div>
+    </header>
+<section id="hero">
+    <div  class="hero-content">
+    <div class="block-top20"><div class="top-20">
+        <p>Топ 20 лучших Игр</p>
+        <p>2020 года</p></div>
+        <div class="mobile-content"><a href="#">Blood and Soul</a></div>
+    </div>
+        <div class="block-pubg">
+            <div class="circle"><p>Free</p></div>
+        </div>
+    </div>
+    <h2>Популярные Игры</h2>
+</section>
+<footer>
+    <div class="grid">
+        <div class="games">
+            <div class="grid-img"><img src="./img/metro.png"> </div>
+            <div class="grid-content"><h4>Metro Exodus</h4>
+                <p>Жанр:<span>Экшен</span></p>
+                <div class="grid-button">
+                <button class="btn"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 16C4.9 16 4 16.9 4 18C4 19.1 4.9 20 6 20C7.1 20 8 19.1 8 18C8 16.9 7.1 16 6 16ZM0 0V2H2L5.6 9.6L4.2 12C4.1 12.3 4 12.7 4 13C4 14.1 4.9 15 6 15H18V13H6.4C6.3 13 6.2 12.9 6.2 12.8V12.7L7.1 11H14.5C15.3 11 15.9 10.6 16.2 9.99996L19.8 3.5C20 3.3 20 3.2 20 3C20 2.4 19.6 2 19 2H4.2L3.3 0H0ZM16 16C14.9 16 14 16.9 14 18C14 19.1 14.9 20 16 20C17.1 20 18 19.1 18 18C18 16.9 17.1 16 16 16Z" fill="white"/>
+                </svg><span>Купить</span></button>
+                    <div class="cost"><a href="#">10$</a></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="games">
+            <div class="grid-img"><img src="./img/evil.png"> </div>
+            <div class="grid-content"><h4>Metro Exodus</h4>
+                <p>Жанр:<span>Экшен</span></p>
+                <div class="grid-button">
+                    <button class="btn"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 16C4.9 16 4 16.9 4 18C4 19.1 4.9 20 6 20C7.1 20 8 19.1 8 18C8 16.9 7.1 16 6 16ZM0 0V2H2L5.6 9.6L4.2 12C4.1 12.3 4 12.7 4 13C4 14.1 4.9 15 6 15H18V13H6.4C6.3 13 6.2 12.9 6.2 12.8V12.7L7.1 11H14.5C15.3 11 15.9 10.6 16.2 9.99996L19.8 3.5C20 3.3 20 3.2 20 3C20 2.4 19.6 2 19 2H4.2L3.3 0H0ZM16 16C14.9 16 14 16.9 14 18C14 19.1 14.9 20 16 20C17.1 20 18 19.1 18 18C18 16.9 17.1 16 16 16Z" fill="white"/>
+                    </svg><span>Купить</span></button>
+                    <div class="cost"><a href="#">13,08$</a></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="games">
+            <div class="grid-img"><img src="./img/sky.png"> </div>
+            <div class="grid-content"><h4>Metro Exodus</h4>
+                <p>Жанр:<span>Экшен</span></p>
+                <div class="grid-button">
+                    <button class="btn"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 16C4.9 16 4 16.9 4 18C4 19.1 4.9 20 6 20C7.1 20 8 19.1 8 18C8 16.9 7.1 16 6 16ZM0 0V2H2L5.6 9.6L4.2 12C4.1 12.3 4 12.7 4 13C4 14.1 4.9 15 6 15H18V13H6.4C6.3 13 6.2 12.9 6.2 12.8V12.7L7.1 11H14.5C15.3 11 15.9 10.6 16.2 9.99996L19.8 3.5C20 3.3 20 3.2 20 3C20 2.4 19.6 2 19 2H4.2L3.3 0H0ZM16 16C14.9 16 14 16.9 14 18C14 19.1 14.9 20 16 20C17.1 20 18 19.1 18 18C18 16.9 17.1 16 16 16Z" fill="white"/>
+                    </svg><span>Купить</span></button>
+                    <div class="cost"><a href="#">11$</a></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="games">
+            <div class="grid-img"><img src="./img/doom.png"> </div>
+            <div class="grid-content"><h4>Metro Exodus</h4>
+                <p>Жанр:<span>Экшен</span></p>
+                <div class="grid-button">
+                    <button class="btn"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 16C4.9 16 4 16.9 4 18C4 19.1 4.9 20 6 20C7.1 20 8 19.1 8 18C8 16.9 7.1 16 6 16ZM0 0V2H2L5.6 9.6L4.2 12C4.1 12.3 4 12.7 4 13C4 14.1 4.9 15 6 15H18V13H6.4C6.3 13 6.2 12.9 6.2 12.8V12.7L7.1 11H14.5C15.3 11 15.9 10.6 16.2 9.99996L19.8 3.5C20 3.3 20 3.2 20 3C20 2.4 19.6 2 19 2H4.2L3.3 0H0ZM16 16C14.9 16 14 16.9 14 18C14 19.1 14.9 20 16 20C17.1 20 18 19.1 18 18C18 16.9 17.1 16 16 16Z" fill="white"/>
+                    </svg><span>Купить</span></button>
+                    <div class="cost"><a href="#">9,62$</a></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="games">
+            <div class="grid-img"><img src="./img/metro.png"> </div>
+            <div class="grid-content"><h4>Metro Exodus</h4>
+                <p>Жанр:<span>Экшен</span></p>
+                <div class="grid-button">
+                    <button class="btn"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 16C4.9 16 4 16.9 4 18C4 19.1 4.9 20 6 20C7.1 20 8 19.1 8 18C8 16.9 7.1 16 6 16ZM0 0V2H2L5.6 9.6L4.2 12C4.1 12.3 4 12.7 4 13C4 14.1 4.9 15 6 15H18V13H6.4C6.3 13 6.2 12.9 6.2 12.8V12.7L7.1 11H14.5C15.3 11 15.9 10.6 16.2 9.99996L19.8 3.5C20 3.3 20 3.2 20 3C20 2.4 19.6 2 19 2H4.2L3.3 0H0ZM16 16C14.9 16 14 16.9 14 18C14 19.1 14.9 20 16 20C17.1 20 18 19.1 18 18C18 16.9 17.1 16 16 16Z" fill="white"/>
+                    </svg><span>Купить</span></button>
+                    <div class="cost"><a href="#">10$</a></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="games">
+            <div class="grid-img"><img src="./img/evil.png"> </div>
+            <div class="grid-content"><h4>Metro Exodus</h4>
+                <p>Жанр:<span>Экшен</span></p>
+                <div class="grid-button">
+                    <button class="btn"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 16C4.9 16 4 16.9 4 18C4 19.1 4.9 20 6 20C7.1 20 8 19.1 8 18C8 16.9 7.1 16 6 16ZM0 0V2H2L5.6 9.6L4.2 12C4.1 12.3 4 12.7 4 13C4 14.1 4.9 15 6 15H18V13H6.4C6.3 13 6.2 12.9 6.2 12.8V12.7L7.1 11H14.5C15.3 11 15.9 10.6 16.2 9.99996L19.8 3.5C20 3.3 20 3.2 20 3C20 2.4 19.6 2 19 2H4.2L3.3 0H0ZM16 16C14.9 16 14 16.9 14 18C14 19.1 14.9 20 16 20C17.1 20 18 19.1 18 18C18 16.9 17.1 16 16 16Z" fill="white"/>
+                    </svg><span>Купить</span></button>
+                    <div class="cost"><a href="#">13,08$</a></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="games">
+            <div class="grid-img"><img src="./img/sky.png"> </div>
+            <div class="grid-content"><h4>Metro Exodus</h4>
+                <p>Жанр:<span>Экшен</span></p>
+                <div class="grid-button">
+                    <button class="btn"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 16C4.9 16 4 16.9 4 18C4 19.1 4.9 20 6 20C7.1 20 8 19.1 8 18C8 16.9 7.1 16 6 16ZM0 0V2H2L5.6 9.6L4.2 12C4.1 12.3 4 12.7 4 13C4 14.1 4.9 15 6 15H18V13H6.4C6.3 13 6.2 12.9 6.2 12.8V12.7L7.1 11H14.5C15.3 11 15.9 10.6 16.2 9.99996L19.8 3.5C20 3.3 20 3.2 20 3C20 2.4 19.6 2 19 2H4.2L3.3 0H0ZM16 16C14.9 16 14 16.9 14 18C14 19.1 14.9 20 16 20C17.1 20 18 19.1 18 18C18 16.9 17.1 16 16 16Z" fill="white"/>
+                    </svg><span>Купить</span></button>
+                    <div class="cost"><a href="#">11$</a></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="games">
+            <div class="grid-img"><img src="./img/doom.png"> </div>
+            <div class="grid-content"><h4>Metro Exodus</h4>
+                <p>Жанр:<span>Экшен</span></p>
+                <div class="grid-button">
+                    <button class="btn"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 16C4.9 16 4 16.9 4 18C4 19.1 4.9 20 6 20C7.1 20 8 19.1 8 18C8 16.9 7.1 16 6 16ZM0 0V2H2L5.6 9.6L4.2 12C4.1 12.3 4 12.7 4 13C4 14.1 4.9 15 6 15H18V13H6.4C6.3 13 6.2 12.9 6.2 12.8V12.7L7.1 11H14.5C15.3 11 15.9 10.6 16.2 9.99996L19.8 3.5C20 3.3 20 3.2 20 3C20 2.4 19.6 2 19 2H4.2L3.3 0H0ZM16 16C14.9 16 14 16.9 14 18C14 19.1 14.9 20 16 20C17.1 20 18 19.1 18 18C18 16.9 17.1 16 16 16Z" fill="white"/>
+                    </svg><span>Купить</span></button>
+                    <div class="cost"><a href="#">9,62$</a></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="games">
+            <div class="grid-img"><img src="./img/metro.png"> </div>
+            <div class="grid-content"><h4>Metro Exodus</h4>
+                <p>Жанр:<span>Экшен</span></p>
+                <div class="grid-button">
+                    <button class="btn"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 16C4.9 16 4 16.9 4 18C4 19.1 4.9 20 6 20C7.1 20 8 19.1 8 18C8 16.9 7.1 16 6 16ZM0 0V2H2L5.6 9.6L4.2 12C4.1 12.3 4 12.7 4 13C4 14.1 4.9 15 6 15H18V13H6.4C6.3 13 6.2 12.9 6.2 12.8V12.7L7.1 11H14.5C15.3 11 15.9 10.6 16.2 9.99996L19.8 3.5C20 3.3 20 3.2 20 3C20 2.4 19.6 2 19 2H4.2L3.3 0H0ZM16 16C14.9 16 14 16.9 14 18C14 19.1 14.9 20 16 20C17.1 20 18 19.1 18 18C18 16.9 17.1 16 16 16Z" fill="white"/>
+                    </svg><span>Купить</span></button>
+                    <div class="cost"><a href="#">10$</a></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="games">
+            <div class="grid-img"><img src="./img/evil.png"> </div>
+            <div class="grid-content"><h4>Metro Exodus</h4>
+                <p>Жанр:<span>Экшен</span></p>
+                <div class="grid-button">
+                    <button class="btn"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 16C4.9 16 4 16.9 4 18C4 19.1 4.9 20 6 20C7.1 20 8 19.1 8 18C8 16.9 7.1 16 6 16ZM0 0V2H2L5.6 9.6L4.2 12C4.1 12.3 4 12.7 4 13C4 14.1 4.9 15 6 15H18V13H6.4C6.3 13 6.2 12.9 6.2 12.8V12.7L7.1 11H14.5C15.3 11 15.9 10.6 16.2 9.99996L19.8 3.5C20 3.3 20 3.2 20 3C20 2.4 19.6 2 19 2H4.2L3.3 0H0ZM16 16C14.9 16 14 16.9 14 18C14 19.1 14.9 20 16 20C17.1 20 18 19.1 18 18C18 16.9 17.1 16 16 16Z" fill="white"/>
+                    </svg><span>Купить</span></button>
+                    <div class="cost"><a href="#">13,08$</a></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="games">
+            <div class="grid-img"><img src="./img/sky.png"> </div>
+            <div class="grid-content"><h4>Metro Exodus</h4>
+                <p>Жанр:<span>Экшен</span></p>
+                <div class="grid-button">
+                    <button class="btn"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 16C4.9 16 4 16.9 4 18C4 19.1 4.9 20 6 20C7.1 20 8 19.1 8 18C8 16.9 7.1 16 6 16ZM0 0V2H2L5.6 9.6L4.2 12C4.1 12.3 4 12.7 4 13C4 14.1 4.9 15 6 15H18V13H6.4C6.3 13 6.2 12.9 6.2 12.8V12.7L7.1 11H14.5C15.3 11 15.9 10.6 16.2 9.99996L19.8 3.5C20 3.3 20 3.2 20 3C20 2.4 19.6 2 19 2H4.2L3.3 0H0ZM16 16C14.9 16 14 16.9 14 18C14 19.1 14.9 20 16 20C17.1 20 18 19.1 18 18C18 16.9 17.1 16 16 16Z" fill="white"/>
+                    </svg><span>Купить</span></button>
+                    <div class="cost"><a href="#">11$</a></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="games">
+            <div class="grid-img"><img src="./img/doom.png"> </div>
+            <div class="grid-content"><h4>Metro Exodus</h4>
+                <p>Жанр:<span>Экшен</span></p>
+                <div class="grid-button">
+                    <button class="btn"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 16C4.9 16 4 16.9 4 18C4 19.1 4.9 20 6 20C7.1 20 8 19.1 8 18C8 16.9 7.1 16 6 16ZM0 0V2H2L5.6 9.6L4.2 12C4.1 12.3 4 12.7 4 13C4 14.1 4.9 15 6 15H18V13H6.4C6.3 13 6.2 12.9 6.2 12.8V12.7L7.1 11H14.5C15.3 11 15.9 10.6 16.2 9.99996L19.8 3.5C20 3.3 20 3.2 20 3C20 2.4 19.6 2 19 2H4.2L3.3 0H0ZM16 16C14.9 16 14 16.9 14 18C14 19.1 14.9 20 16 20C17.1 20 18 19.1 18 18C18 16.9 17.1 16 16 16Z" fill="white"/>
+                    </svg><span>Купить</span></button>
+                    <div class="cost"><a href="#">9,62$</a></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.55 7.79399C17.5495 7.79358 17.5491 7.79303 17.5487 7.79262L10.2061 0.450303C9.89309 0.137192 9.47698 -0.0351562 9.03437 -0.0351562C8.59175 -0.0351562 8.17565 0.137192 7.86254 0.450303L0.523793 7.78891C0.521321 7.79138 0.518711 7.79399 0.516377 7.79646C-0.126325 8.44287 -0.125226 9.49166 0.519535 10.1364C0.814107 10.4311 1.20302 10.6017 1.61899 10.6197C1.63602 10.6213 1.65305 10.6222 1.67022 10.6222H1.96273V16.0255C1.96273 17.0949 2.83285 17.9649 3.90223 17.9649H6.77489C7.06616 17.9649 7.30223 17.7287 7.30223 17.4375V13.2012C7.30223 12.7133 7.69925 12.3164 8.18718 12.3164H9.88155C10.3695 12.3164 10.7664 12.7133 10.7664 13.2012V17.4375C10.7664 17.7287 11.0024 17.9649 11.2937 17.9649H14.1664C15.2359 17.9649 16.1059 17.0949 16.1059 16.0255V10.6222H16.3772C16.8197 10.6222 17.2358 10.4498 17.5491 10.1366C18.1945 9.49083 18.1948 8.44013 17.55 7.79399ZM16.8032 9.39086C16.6894 9.5047 16.538 9.56746 16.3772 9.56746H15.5785C15.2872 9.56746 15.0512 9.80353 15.0512 10.0948V16.0255C15.0512 16.5133 14.6543 16.9102 14.1664 16.9102H11.8211V13.2012C11.8211 12.1318 10.9511 11.2617 9.88155 11.2617H8.18718C7.11766 11.2617 6.24754 12.1318 6.24754 13.2012V16.9102H3.90223C3.41444 16.9102 3.01742 16.5133 3.01742 16.0255V10.0948C3.01742 9.80353 2.78135 9.56746 2.49007 9.56746H1.7051C1.69686 9.56691 1.68876 9.5665 1.68038 9.56636C1.52328 9.56362 1.37592 9.50127 1.26551 9.39072C1.03068 9.15589 1.03068 8.7737 1.26551 8.53873C1.26565 8.53873 1.26565 8.53859 1.26578 8.53845L1.2662 8.53804L8.60851 1.196C8.72222 1.08216 8.87342 1.01953 9.03437 1.01953C9.19518 1.01953 9.34638 1.08216 9.46023 1.196L16.8009 8.53653C16.802 8.53763 16.8032 8.53873 16.8043 8.53983C17.0379 8.77507 17.0375 9.15644 16.8032 9.39086Z" fill="#C4C4C4"/>
+        </svg>
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0)">
+                <path d="M19.9898 12.5165C19.9399 11.3706 19.7406 10.1002 19.4417 8.90446C19.1428 7.75856 18.7691 6.68739 18.3207 5.86533C16.577 2.8013 14.6837 3.2746 12.4169 3.87246C11.6944 4.04684 10.9222 4.24613 10.1251 4.32086H9.87594C9.07879 4.24613 8.30656 4.04684 7.58414 3.87246C5.31725 3.29951 3.42403 2.8013 1.68027 5.89024C1.23187 6.7123 0.833297 7.78347 0.559277 8.92937C0.260347 10.1251 0.0610599 11.3955 0.0112381 12.5414C-0.0385836 13.8119 0.0859707 14.7336 0.35999 15.3813C0.63401 15.9791 1.03258 16.3528 1.55571 16.5023C2.02902 16.6268 2.57706 16.577 3.15001 16.3279C4.12153 15.9293 5.24252 15.0824 6.3386 14.061C7.11084 13.3137 8.55567 12.94 10.0005 12.94C11.4453 12.94 12.8902 13.3137 13.6624 14.061C14.7585 15.0824 15.8795 15.9293 16.851 16.3279C17.4239 16.5521 17.972 16.6268 18.4453 16.5023C18.9435 16.3528 19.367 16.0041 19.641 15.3564C19.915 14.7336 20.0396 13.8119 19.9898 12.5165ZM18.794 15.0076C18.6446 15.3564 18.4453 15.5557 18.1962 15.6304C17.9222 15.7051 17.5734 15.6553 17.1748 15.5058C16.3029 15.1571 15.2816 14.3848 14.2852 13.4382C13.3386 12.4916 11.6695 12.0183 10.0005 12.0183C8.33147 12.0183 6.66244 12.4916 5.69092 13.3884C4.66957 14.335 3.64823 15.1322 2.80126 15.456C2.40268 15.6055 2.05393 15.6802 1.77991 15.5806C1.5308 15.5058 1.33151 15.3066 1.18205 14.9578C0.982762 14.4845 0.883119 13.7123 0.93294 12.5664C0.982762 11.4952 1.15714 10.2746 1.45607 9.12865C1.73009 8.05749 2.07884 7.06105 2.50233 6.31373C3.87242 3.84755 5.46672 4.24613 7.35994 4.74434C8.13218 4.94363 8.92933 5.14292 9.80121 5.21765C9.82612 5.21765 9.82612 5.21765 9.85103 5.21765H10.1251C10.15 5.21765 10.15 5.21765 10.1749 5.21765C11.0717 5.14292 11.8688 4.94363 12.641 4.74434C14.5343 4.27104 16.1286 3.84755 17.4987 6.31373C17.9222 7.06105 18.2709 8.03258 18.5449 9.12865C18.8189 10.2746 19.0182 11.4703 19.0681 12.5664C19.1179 13.7123 19.0182 14.4845 18.794 15.0076Z" fill="#2C3DAC"/>
+                <path d="M7.70805 7.65886C7.45895 7.43466 7.16002 7.26029 6.81126 7.23538C6.78635 6.91154 6.63689 6.58769 6.41269 6.3635L6.38778 6.33858C6.11376 6.06457 5.76501 5.9151 5.36643 5.9151C4.96786 5.9151 4.5942 6.08948 4.34509 6.33858C4.12089 6.56278 3.94651 6.88662 3.9216 7.23538C3.57285 7.26029 3.27392 7.40975 3.02481 7.63395L2.9999 7.65886C2.72588 7.93288 2.57642 8.28163 2.57642 8.68021C2.57642 9.07878 2.75079 9.45245 2.9999 9.70155C3.24901 9.95066 3.54794 10.1001 3.9216 10.125C3.94651 10.4738 4.09598 10.7976 4.34509 11.0218C4.61911 11.2959 4.96786 11.4453 5.36643 11.4453C5.76501 11.4453 6.13867 11.2709 6.38778 11.0218C6.61198 10.7727 6.78635 10.4738 6.81126 10.125C7.16002 10.1001 7.48386 9.95066 7.70805 9.70155C7.98207 9.42753 8.13154 9.07878 8.13154 8.68021C8.13154 8.28163 7.95716 7.90797 7.70805 7.65886ZM7.08528 9.05387C6.98564 9.15351 6.86109 9.20334 6.71162 9.20334H6.36287C6.11376 9.20334 5.88956 9.40262 5.88956 9.67664V10.0005C5.88956 10.1499 5.83974 10.2745 5.7401 10.3741C5.64045 10.4738 5.5159 10.5236 5.36643 10.5236C5.21697 10.5236 5.09241 10.4738 4.99277 10.3741C4.89313 10.2745 4.84331 10.1499 4.84331 10.0005V9.65173C4.84331 9.40262 4.64402 9.17843 4.37 9.17843H4.02125C3.87178 9.17843 3.74723 9.1286 3.64758 9.02896C3.57285 8.95423 3.49812 8.82967 3.49812 8.68021C3.49812 8.53074 3.54794 8.40619 3.64758 8.30654C3.64758 8.30654 3.64758 8.30654 3.67249 8.28163C3.77214 8.2069 3.89669 8.15708 4.02125 8.15708H4.37C4.61911 8.15708 4.84331 7.95779 4.84331 7.68377V7.33502C4.84331 7.18555 4.89313 7.061 4.99277 6.96136C5.09241 6.86171 5.21697 6.81189 5.36643 6.81189C5.5159 6.81189 5.64045 6.86171 5.7401 6.96136C5.7401 6.96136 5.7401 6.96136 5.76501 6.98627C5.83974 7.08591 5.88956 7.21047 5.88956 7.33502V7.68377C5.88956 7.93288 6.08885 8.15708 6.36287 8.15708H6.71162C6.86109 8.15708 6.98564 8.2069 7.08528 8.30654C7.18493 8.40619 7.23475 8.53074 7.23475 8.68021C7.23475 8.82967 7.18493 8.95423 7.08528 9.05387Z" fill="#2C3DAC"/>
+                <path d="M14.3343 7.78343C14.8158 7.78343 15.2062 7.39308 15.2062 6.91155C15.2062 6.43003 14.8158 6.03967 14.3343 6.03967C13.8528 6.03967 13.4624 6.43003 13.4624 6.91155C13.4624 7.39308 13.8528 7.78343 14.3343 7.78343Z" fill="#2C3DAC"/>
+                <path d="M14.3343 11.3208C14.8158 11.3208 15.2062 10.9304 15.2062 10.4489C15.2062 9.96738 14.8158 9.57703 14.3343 9.57703C13.8528 9.57703 13.4624 9.96738 13.4624 10.4489C13.4624 10.9304 13.8528 11.3208 14.3343 11.3208Z" fill="#2C3DAC"/>
+                <path d="M12.566 9.55211C13.0475 9.55211 13.4379 9.16176 13.4379 8.68023C13.4379 8.1987 13.0475 7.80835 12.566 7.80835C12.0844 7.80835 11.6941 8.1987 11.6941 8.68023C11.6941 9.16176 12.0844 9.55211 12.566 9.55211Z" fill="#2C3DAC"/>
+                <path d="M16.1033 9.55211C16.5849 9.55211 16.9752 9.16176 16.9752 8.68023C16.9752 8.1987 16.5849 7.80835 16.1033 7.80835C15.6218 7.80835 15.2314 8.1987 15.2314 8.68023C15.2314 9.16176 15.6218 9.55211 16.1033 9.55211Z" fill="#2C3DAC"/>
+            </g>
+            <defs>
+                <clipPath id="clip0">
+                    <rect width="20" height="20" fill="white"/>
+                </clipPath>
+            </defs>
+        </svg>
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7.93315 17.2667H4.66649V10.2667C4.66649 10.0089 4.45754 9.79999 4.19982 9.79999C3.94211 9.79999 3.73315 10.0089 3.73315 10.2667V17.7333C3.73315 17.991 3.94211 18.2 4.19982 18.2H7.93315C8.19087 18.2 8.39982 17.991 8.39982 17.7333C8.39982 17.4756 8.19087 17.2667 7.93315 17.2667Z" fill="#C4C4C4"/>
+            <path d="M23.8001 10.7333C24.0578 10.7333 24.2668 10.5244 24.2668 10.2667C24.2668 10.0089 24.0578 9.79999 23.8001 9.79999H20.0668C19.809 9.79999 19.6001 10.0089 19.6001 10.2667V17.7333C19.6001 17.991 19.809 18.2 20.0668 18.2H23.8001C24.0578 18.2 24.2668 17.991 24.2668 17.7333C24.2668 17.4756 24.0578 17.2667 23.8001 17.2667H20.5334V14.4667H22.8668C23.1245 14.4667 23.3334 14.2577 23.3334 14C23.3334 13.7423 23.1245 13.5333 22.8668 13.5333H20.5334V10.7333H23.8001Z" fill="#C4C4C4"/>
+            <path d="M10.2667 9.79999C10.009 9.79999 9.80005 10.0089 9.80005 10.2667V17.7333C9.80005 17.991 10.009 18.2 10.2667 18.2C10.5244 18.2 10.7334 17.991 10.7334 17.7333V10.2667C10.7334 10.0089 10.5244 9.79999 10.2667 9.79999Z" fill="#C4C4C4"/>
+            <path d="M17.8973 9.82938C17.7813 9.78586 17.6528 9.79019 17.54 9.84146C17.4272 9.89273 17.3395 9.98684 17.2962 10.1028L14.9735 16.2973L13.0458 10.1267C12.9685 9.88042 12.7063 9.74371 12.4602 9.82095C12.2139 9.8982 12.0771 10.1605 12.1544 10.4066L14.4877 17.8732C14.5474 18.0635 14.7213 18.1945 14.9204 18.2H14.9334C15.128 18.2002 15.3023 18.0794 15.3707 17.8972L18.1707 10.4305C18.2142 10.3145 18.2099 10.186 18.1586 10.0732C18.1074 9.9604 18.0133 9.87268 17.8973 9.82938Z" fill="#C4C4C4"/>
+            <path d="M25.6667 5.1333H2.33333C1.04521 5.1349 0.00159505 6.17852 0 7.46663V20.5333C0.00159505 21.8214 1.04521 22.865 2.33333 22.8666H25.6667C26.9548 22.865 27.9984 21.8214 28 20.5333V7.46663C27.9984 6.17852 26.9548 5.1349 25.6667 5.1333ZM27.0667 20.5333C27.0667 21.3064 26.4398 21.9333 25.6667 21.9333H2.33333C1.56019 21.9333 0.933333 21.3064 0.933333 20.5333V7.46663C0.933333 6.69349 1.56019 6.06663 2.33333 6.06663H25.6667C26.4398 6.06663 27.0667 6.69349 27.0667 7.46663V20.5333Z" fill="#C4C4C4"/>
+        </svg>
+        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3.14286 16.3289V0.407407C3.14286 0.182111 2.96686 0 2.75 0C2.53314 0 2.35714 0.182111 2.35714 0.407407V16.3289C1.02654 16.5277 0 17.7145 0 19.1481C0 20.7203 1.23357 22 2.75 22C4.26643 22 5.5 20.7203 5.5 19.1481C5.5 17.7145 4.47346 16.5277 3.14286 16.3289Z" fill="#C4C4C4"/>
+            <path d="M11.3927 8.02389V0.407407C11.3927 0.182111 11.2167 0 10.9998 0C10.7829 0 10.6069 0.182111 10.6069 0.407407V7.99822C9.19187 8.15956 8.08716 9.40622 8.08716 10.9157C8.08716 12.4251 9.19187 13.6718 10.6069 13.8331V21.5926C10.6069 21.8179 10.7829 22 10.9998 22C11.2167 22 11.3927 21.8179 11.3927 21.5926V13.8074C12.7284 13.5724 13.7498 12.3669 13.7498 10.9157C13.7498 9.46448 12.7284 8.25896 11.3927 8.02389Z" fill="#C4C4C4"/>
+            <path d="M22 2.85185C22 1.27967 20.7664 0 19.25 0C17.7336 0 16.5 1.27967 16.5 2.85185C16.5 4.28552 17.5265 5.4723 18.8571 5.67111V21.5926C18.8571 21.8179 19.0331 22 19.25 22C19.4669 22 19.6429 21.8179 19.6429 21.5926V5.67111C20.9735 5.4723 22 4.28552 22 2.85185Z" fill="#C4C4C4"/>
+        </svg>
+
+    </div>
+</footer>
+
+</body>
+</html>
+
+
