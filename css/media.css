@@ -37,6 +37,7 @@
 
 }@media (max-width: 540px) {
         .mobile-content{
+            display: block;
             text-align: center;
             margin-top: 30px;
         }
